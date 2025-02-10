@@ -43,7 +43,7 @@ jobs:
           - os: ubuntu-20.04
             artifact-name: stylua-linux-aarch64-musl
             cargo-target: aarch64-unknown-linux-musl
-            linker: aarch64-linux-musl-gcc
+            linker: aarch64-linux-gnu-gcc
           - os: macos-latest
             artifact-name: stylua-macos-x86_64
             cargo-target: x86_64-apple-darwin
