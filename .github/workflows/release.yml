@@ -34,7 +34,7 @@ jobs:
           - os: ubuntu-22.04-arm
             artifact-name: stylua-linux-aarch64-musl
             cargo-target: aarch64-unknown-linux-musl
-            linker: aarch64-linux-musl-gcc
+            linker: aarch64-linux-gnu-gcc
 
     name: Build (${{ matrix.artifact-name }})
     runs-on: ${{ matrix.os }}
